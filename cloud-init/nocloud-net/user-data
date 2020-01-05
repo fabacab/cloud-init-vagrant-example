@@ -1,0 +1,15 @@
+#cloud-config
+
+# This file can be one of several different types, as defined
+# by its very first line (`#cloud-config`, above). For more
+# information, see:
+# https://cloudinit.readthedocs.io/en/latest/topics/format.html
+
+# If this file is cloud-config data (a YAML-formatted DSL),
+# use the modules defined here:
+# https://cloudinit.readthedocs.io/en/latest/topics/modules.html
+
+# For instance, update the APT cache, then install packages.
+package_update: true
+packages:
+  - build-essential

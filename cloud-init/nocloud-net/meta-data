@@ -1,0 +1,6 @@
+# See https://cloudinit.readthedocs.io/en/latest/topics/instancedata.html
+
+instance-id: abc123
+
+# Place various other meta-data directives here. For example:
+#local-hostname: cloud-init-example-host
